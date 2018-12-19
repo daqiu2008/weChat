@@ -15,6 +15,7 @@
 		7BA18E4421CAB6BE00F0DA4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA18E4321CAB6BE00F0DA4C /* Assets.xcassets */; };
 		7BA18E4721CAB6BE00F0DA4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA18E4521CAB6BE00F0DA4C /* LaunchScreen.storyboard */; };
 		7BA18E5221CAB6BF00F0DA4C /* weChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA18E5121CAB6BF00F0DA4C /* weChatTests.m */; };
+		7BA18E5E21CAB97800F0DA4C /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA18E5D21CAB97800F0DA4C /* person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		7BA18E4D21CAB6BF00F0DA4C /* weChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA18E5121CAB6BF00F0DA4C /* weChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weChatTests.m; sourceTree = "<group>"; };
 		7BA18E5321CAB6BF00F0DA4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BA18E5C21CAB97800F0DA4C /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		7BA18E5D21CAB97800F0DA4C /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				7BA18E3821CAB6BE00F0DA4C /* AppDelegate.m */,
 				7BA18E3A21CAB6BE00F0DA4C /* ViewController.h */,
 				7BA18E3B21CAB6BE00F0DA4C /* ViewController.m */,
+				7BA18E5C21CAB97800F0DA4C /* person.h */,
+				7BA18E5D21CAB97800F0DA4C /* person.m */,
 				7BA18E3D21CAB6BE00F0DA4C /* Main.storyboard */,
 				7BA18E4321CAB6BE00F0DA4C /* Assets.xcassets */,
 				7BA18E4521CAB6BE00F0DA4C /* LaunchScreen.storyboard */,
@@ -219,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BA18E3C21CAB6BE00F0DA4C /* ViewController.m in Sources */,
+				7BA18E5E21CAB97800F0DA4C /* person.m in Sources */,
 				7BA18E3921CAB6BE00F0DA4C /* AppDelegate.m in Sources */,
 				7BA18E3621CAB6BE00F0DA4C /* main.m in Sources */,
 				7BA18E4221CAB6BE00F0DA4C /* weChat.xcdatamodeld in Sources */,
